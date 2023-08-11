@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stories in Melody</title>
+
+<link href="https://static.vecteezy.com/system/resources/thumbnails/002/065/090/small/music-streaming-icon-logo-illustration-free-vector.jpg" rel ="icon">
+<!-- Load FontAwesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<!-- Load the custom CSS style file -->
+<link rel="stylesheet" type="text/css" href="{% static 'style1.css' %}">
+</head>
+<body>
+
+<h1 style="color: ghostwhite; font-family: cursive; text-align: center;"><b>WELCOME! TO OUR MUSIC PLAYER</b></h1>
+<div>
+	<ul>
+		<li><a class ="active" a href="/"><h2 style="color: black;">Choose Any One</h2></a><br></li>
+		
+		<li><a href="/oldsongs/">Bollywood Songs</a><br></li>
+		<li><a href="/artist/">Artists</a><br></li>
+		<li><a href="/hollywoodsongs/">Hollywood Songs</a><br></li>
+		<li><a href="/trending/">Trending</a><br></li>
+		
+	  </ul>  
+	</div>
+</body>
+</html>
